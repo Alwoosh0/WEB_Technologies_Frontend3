@@ -1,0 +1,250 @@
+body {
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+.main-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.part {
+    margin-bottom: 30px;
+}
+
+.part-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.task {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.task-title {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .part-title {
+        font-size: 26px;
+    }
+
+    .task {
+        padding: 20px;
+    }
+
+    .task-title {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 17px;
+    }
+
+    .main-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .part-title {
+        font-size: 30px;
+    }
+
+    .task {
+        padding: 25px;
+    }
+
+    .task-title {
+        font-size: 22px;
+    }
+}
+
+.typo-heading {
+    font-size: 24px;
+}
+
+.typo-subheading {
+    font-size: 20px;
+}
+
+.typo-text {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .typo-heading {
+        font-size: 32px;
+    }
+
+    .typo-subheading {
+        font-size: 26px;
+    }
+
+    .typo-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .typo-heading {
+        font-size: 42px;
+    }
+
+    .typo-subheading {
+        font-size: 32px;
+    }
+
+    .typo-text {
+        font-size: 18px;
+    }
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.box {
+    padding: 40px 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box1 {
+    background-color: #3498db;
+}
+
+.box2 {
+    background-color: #2ecc71;
+}
+
+.box3 {
+    background-color: #e67e22;
+}
+
+@media (min-width: 768px) {
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .boxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.sidebar {
+    margin-top: 20px;
+}
+
+.sidebar-box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-box h3 {
+    font-size: 18px;
+}
+
+.sidebar-box p {
+    margin-bottom: 5px;
+}
+
+.skills {
+    display: none;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .sidebar-box {
+        padding: 20px;
+    }
+
+    .sidebar-box h3 {
+        font-size: 20px;
+    }
+
+    .skills {
+        display: block;
+    }
+
+    .footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 26px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .sidebar {
+        margin-top: 0;
+    }
+
+    .sidebar-box h3 {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 25px;
+        font-size: 16px;
+    }
+}

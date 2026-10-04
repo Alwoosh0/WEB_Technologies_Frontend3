@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Responsive Web Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Almansur Maxym</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#part1">Media Queries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#part2">Bootstrap Grid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main-section">
+
+        <section id="part1" class="part">
+            <h2 class="part-title">Part 1. Media Queries</h2>
+
+            <div class="task">
+                <h3 class="task-title">Task 0. Responsive Typography</h3>
+                <h1 class="typo-heading">Responsive Typography</h1>
+                <h2 class="typo-subheading">Text size changes with the screen</h2>
+                <p class="typo-text">This text is small on mobile, medium on tablet and large on desktop. The font sizes are changed with CSS media queries.</p>
+            </div>
+
+            <div class="task">
+                <h3 class="task-title">Task 1. Responsive Layout with Media Queries</h3>
+                <div class="boxes">
+                    <div class="box box1">Box 1</div>
+                    <div class="box box2">Box 2</div>
+                    <div class="box box3">Box 3</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="part2" class="part">
+            <h2 class="part-title">Part 2. Bootstrap Grid System</h2>
+
+            <div class="task">
+                <h3 class="task-title">Task 2. Bootstrap Responsive Columns</h3>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-4 bg-primary text-white text-center">Column 1</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-4 bg-success text-white text-center">Column 2</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="p-4 bg-danger text-white text-center">Column 3</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task">
+                <h3 class="task-title">Task 3. Bootstrap Navigation Bar</h3>
+                <p>The navigation bar at the top of this page is Task 3. The logo is on the left and the links are on the right. On smaller screens the links collapse into a hamburger menu.</p>
+            </div>
+        </section>
+
+        <section id="part3" class="part">
+            <h2 class="part-title">Part 3. Task 4. Responsive Portfolio Page</h2>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-8" id="projects">
+                    <h3 class="section-title">My Projects</h3>
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Telegram Tracking Bot</h5>
+                                    <p class="card-text">A Telegram bot that helps to track daily tasks and progress.</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Olympiad Problems</h5>
+                                    <p class="card-text">Problems that I wrote as a problem setter for school and regional olympiads.</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Competitive Programming</h5>
+                                    <p class="card-text">My solutions to Codeforces problems written in C++.</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Responsive Web Pages</h5>
+                                    <p class="card-text">Web pages made with HTML, CSS media queries and Bootstrap grid.</p>
+                                    <a href="#" class="btn btn-primary btn-sm">View project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="col-12 col-lg-4 sidebar">
+                    <div class="sidebar-box">
+                        <h3>About Me</h3>
+                        <p><strong>Name:</strong> Almansur Maxym</p>
+                        <p><strong>University:</strong> Astana IT University</p>
+                        <p><strong>Major:</strong> Computer Science</p>
+                        <p><strong>Group:</strong> IT-2501</p>
+                        <p><strong>City:</strong> Astana</p>
+                    </div>
+
+                    <div class="sidebar-box skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>HTML &amp; CSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-box" id="contact">
+                        <h3>Contact</h3>
+                        <p><strong>Email:</strong> almansur.maksim26@gmail.com</p>
+                        <p><strong>Telegram:</strong> @respa_gold</p>
+                        <p><strong>GitHub:</strong> github.com/alwoosh0</p>
+                        <p><strong>Codeforces:</strong> Alwoosh</p>
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Almansur Maxym. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
